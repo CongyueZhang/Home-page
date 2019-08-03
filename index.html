@@ -8,6 +8,12 @@
 <meta name="keywords" content="Congyue Zhang, Zhang Congyue, BME, Machine Learning, Computer Vision, UofT, University of Shanghai for Science & Technology">
 <meta name="description" content="Congyue Zhang's home page">
 <link rel="stylesheet" href="./css/zzxdoc.css" type="text/css" />
+<script src="https://cdn.bootcss.com/jquery/3.4.1/core.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
 <title>Zhang Congyue</title>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -18,6 +24,29 @@
   ga('create', 'UA-99569700-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script type="text/javascript" src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+           var i=returnCitySN;
+           var year=new Date().getFullYear();
+           var month= new Date().getMonth();
+           var day = new Date().getDate();
+           var hours = new Date().getHours();
+           var min = new Date().getMinutes()　
+           var sec = new Date().getSeconds()　
+           var t=year+"-"+month+"-"+day+" "+hours+":"+min+":"+sec;
+            $(document).ready(function(){
+              $.ajax({
+                url: 'https://zhuzhongxian.site/zcy/insert.php',
+                type: 'GET',
+                data: {"ip":i['cip'],"time":t},
+                dataType:'jsonp',
+                success: function()
+                      { 
+                      //alert("添加成功");
+                                  
+                       }});
+          });
 </script>
 </head>
 <body >
@@ -65,8 +94,15 @@
     <li> <b>DBMS</b>:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;MySQL </li>
   </ul>
 
-<h2>PUBLICATIONS <!--(<a href="http://scholar.google.com/citations?user=2wrS35MAAAAJ&hl=en&oi=ao">Google Scholar</a>)--></h2>
+<h2>PUBLICATIONS & PATENT <!--(<a href="http://scholar.google.com/citations?user=2wrS35MAAAAJ&hl=en&oi=ao">Google Scholar</a>)--></h2>
 <ul>
+
+  <li>
+    <a href="http://kns.cnki.net/kcms/detail/11.2261.R.20190614.1404.022.html">"An intelligent Kubaton,</br></a>
+    <b>Zhang Congyue</b>, Ling YX, Zhan GG, AN L, Zhou Y</br>
+    <em>CN. Patent Publication NO. CN109327541A  </em>, filed Febru- ary 2019. Patent Pending. <!--<b><font color="red">[Oral]</font></b>--> </br>
+    </p>
+  </li>
 
   <li>
     <a href="http://kns.cnki.net/kcms/detail/11.2261.R.20190614.1404.022.html">Research on recognition technology of the laboratory test report based on Tesseract,</br></a>
@@ -146,19 +182,17 @@
 </ul>
 
 <h2>SELECTED RESEARCH EXPERIENCE</h2>
+
+  <ul>
+    <p> <b>The Mechanism of Ultrasound Modulation in Neural Activity</b></p>
+    <li>Using a new method ), and leech ganglion as sample</li>
+    <li>Intracellular electrical recording, device design, ultrasound experiment, leech anatomy</li>
+  </ul>
+
   <ul>
     <p> <b>Intelligent Vascular Endothelial Cell Function Detector Based on PPG</b></p>
     <li>University-level Undergraduate Innovation and Entrepreneurship Training Program</li>
     <li>Project system scheme design, Construction of hardware circuit</li>
-    <!--
-    <li> Graph Neural Networks. <a href="http://www.research.ibm.com/labs/watson/index.shtml">IBM Thomas J. Watson Research Center</a>, Yorktown Heights, NY, Aug. 9, 2018 </li>
-    <li> Graph Neural Networks. <a href="http://www.nec-labs.com/">NEC Labs</a>, Princeton, NJ, Aug. 7, 2018 </li>
-    <li> Graph Neural Networks. <a href="http://www.borealisai.com/">Borealis AI</a>, Toronto, ON, Jul. 6, 2018 </li>
-    <li> Reviving and Improving Recurrent Back-Propagation. <a href="http://www.borealisai.com/">Borealis AI</a>, Edmonton, AB, Apr. 27, 2018 </li>
-    <li> Graph Neural Networks. Department of Computing Science, University of Alberta, Edmonton, AB, Apr. 26, 2018 </li>
-    <li> Graph Neural Networks. Google Brain, Toronto, Mar. 27, 2018 </li>
-    <li> Deep Learning on Graphs. <a href="http://utmist.sa.utoronto.ca/">UTMIST</a>, Toronto, ON, Jan. 29, 2018 </li>
-    <li> Deep Learning on Graphs. <a href="http://mlensemble.com/">ML Ensemble</a>, Toronto, ON, Jan. 20, 2018 </li> -->
   </ul>
 <!--
 <h2>Services</h2>
@@ -197,10 +231,12 @@
 		<tr> <td><I>1st prize</I> (10 out of candidates of all majors), The 20th <a href="http://en.wikipedia.org/wiki/Fung_Joe_Guey">Feng Ru</a> Cup, Beihang University, 2010.</td></tr>
 
 		<tr><td><I>Outstanding student,</I> University of Shanghai for Science & Technology, 2016, 2017.</td></tr>
+
+		<tr><td><I>Outstanding student Leaders,</I> University of Shanghai for Science & Technology, 2018.</td></tr>
 	</tbody>
 </table>
 
-<h2>VOLUNTARY ACTIVITIES</h2>
+<h2>ACTIVITIES</h2>
 <table style="border-spacing:2px">
   </tbody>
     <tr><td><I>Volunteer</I>, Shanghai xinHua Hospital, 2018.</td></tr>
@@ -210,6 +246,11 @@
     <!-- <tr><td><I>Google & Microsoft & Baidu PhD Fellowship Finalist</I>, 2019</td></tr> -->
 
     <tr><td><I>Volunteer</I>, Shanghai Science& Technology Museum, 2018.</td></tr>
+
+    <tr><td><I>Volunteer teacher</I>, Huji town, Shandong province, 2018.</td></tr>
+
+    <tr><td><I>Member of psychological association</I>, School of Medical Instrument and food Engineering, The University of Shanghai for Science & technology, 2018.</td></tr>
+
   </tbody>
 </table>
 
